@@ -4,7 +4,7 @@ import { vrButton } from "./lib/vrButton.js";
 
 import { bufferGeometry, bufferColors } from "./models/F.js";
 import { glsl, createProgram, glVertexAttributePointer } from "./lib/webgl.js";
-import { mat4 as m4, glMatrix } from "./node_modules/gl-matrix/esm/index.js";
+import { mat4 as m4, glMatrix } from "gl-matrix";
 
 const xrSystem = navigator.xr;
 
